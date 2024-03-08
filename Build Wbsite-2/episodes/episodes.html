@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>episodes</title>
+    <link rel="stylesheet" href="./asset/episodes.css" />
+    <script type="module" src="./asset/episodes.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/">TV Show</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="../main/index.html">home</a>
+        <a href="#popular">popular</a>
+        <a href="#tv">TV</a>
+        <a href="#api">API</a>
+        <a href="#login">Login</a>
+      </nav>
+    </header>
+    <div class="episodesContain" dir="rtl">
+      <select name="episode" id="episode">
+        <option value="Allepisode">All episodes</option>
+      </select>
+    </div>
+    <div class="main"></div>
+  </body>
+</html>
