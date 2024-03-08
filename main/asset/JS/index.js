@@ -43,7 +43,7 @@ const showMovie = async (movies) => {
         const id = movie.id;
         localStorage.setItem("movieID", id);
       }
-      window.location.href = "../episodes/episodes.html";
+      window.location.href = "./episodes/episodes.html";
     });
   });
 };
