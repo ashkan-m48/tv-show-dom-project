@@ -1,5 +1,5 @@
-const API_URL = `https:api.tvmaze.com/shows`;
-const searchAPI = `https:api.tvmaze.com/search/shows?q=`;
+const API_URL = `https://api.tvmaze.com/shows`;
+const searchAPI = `https://api.tvmaze.com/search/shows?q=`;
 
 const fetchData = async (url) => {
   const res = await axios.get(url);

@@ -1,6 +1,6 @@
 console.log(localStorage.getItem("movieID"));
 
-const episodeUrl = `https:api.tvmaze.com/shows/${localStorage.getItem(
+const episodeUrl = `https://api.tvmaze.com/shows/${localStorage.getItem(
   "movieID"
 )}/episodes`;
 const fetchData = async () => {
